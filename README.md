@@ -20,18 +20,18 @@
 
 1. Các thuộc tính và sự kiện cần chú ý:
 
-* Các thuộc tính chú ý: `min, max, progress (Float), sectionCount (Int)` với `sectionCount = max - min`.
+    * Các thuộc tính chú ý: `min, max, progress (Float), sectionCount (Int)` với `sectionCount = max - min`.
 
-* Các sự kiện chú ý:
+    * Các sự kiện chú ý:
 
-        public interface OnProgressChangedListener {
+            public interface OnProgressChangedListener {
 
-            void onProgressChanged(BubbleSeekBar bubbleSeekBar, int progress, float progressFloat, boolean fromUser);
+                void onProgressChanged(BubbleSeekBar bubbleSeekBar, int progress, float progressFloat, boolean fromUser);
 
-            void getProgressOnActionUp(BubbleSeekBar bubbleSeekBar, int progress, float progressFloat);
+                void getProgressOnActionUp(BubbleSeekBar bubbleSeekBar, int progress, float progressFloat);
 
-            void getProgressOnFinally(BubbleSeekBar bubbleSeekBar, int progress, float progressFloat, boolean fromUser);
-        }
+                void getProgressOnFinally(BubbleSeekBar bubbleSeekBar, int progress, float progressFloat, boolean fromUser);
+            }
 
 1. Demo được viết bằng Kotlin: [BubbleSeekBarDemo](https://github.com/thiminhnhut/BubbleSeekBarExamples/tree/master/BubbleSeekBarDemo)
 
