@@ -35,4 +35,4 @@
 
 1. Demo được viết bằng Kotlin: [BubbleSeekBarDemo](https://github.com/thiminhnhut/BubbleSeekBarExamples/tree/master/BubbleSeekBarDemo)
 
-    ![](https://github.com/thiminhnhut/BubbleSeekBarExamples/tree/master/BubbleSeekBarDemo/Demo.png)
+    ![](https://raw.githubusercontent.com/thiminhnhut/BubbleSeekBarExamples/master/BubbleSeekBarDemo/Demo.png)
